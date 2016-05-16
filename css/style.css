@@ -1,0 +1,74 @@
+html {
+  font-size: 14px;  /*base size*/
+}
+
+body {
+  color: #bcb;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  max-height: 75px;
+  height: 100%;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+header p {
+  font-size: 1.143rem;  /*16px*/
+}
+
+h1 {
+  font-size: 2.571rem;  /*36px*/
+  margin: 20px 0 0 0;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 1.857rem;  /*26px*/
+}
+
+h3 {
+  margin: 5px 0;
+}
+
+hr {
+  border-top-width: 4px;
+}
+
+footer {
+  min-height: 68px;
+  background-color: #2e3940;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+a,
+a:visited,
+a:hover,
+a:focus {
+  color: #fff;
+}
+
+.logoContainer {
+  height: 75px;
+}
+
+.logoImage {
+  max-height: 100%;
+  margin: 10px 0;
+  float: left;
+}
+
+.bottomContent {
+  text-align: center;
+}
+
+@media screen and (max-width: 460px) {
+  h1 {
+   font-size: 1.714rem;  /*24px*/
+  }
+}
